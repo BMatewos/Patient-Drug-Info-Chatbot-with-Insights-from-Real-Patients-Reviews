@@ -3,16 +3,16 @@
 ### Project Overview
 #### Dataset Link:https://archive.ics.uci.edu/dataset/462/drug+review+dataset+drugs+com
 ### Dataset Description
-| Column       | Description | Data Type  | Additional Info |  |
-|--------------|-------------|------------|-----------------|
-| id            | A unique identifier for each entry in the dataset       | 
-| drugName     | The name of the drug being reviewed.    | Categorical|                 
-| condition    | Feature     | Categorical|                 | 
-| review       | Feature     | Categorical|                 | 
-| rating       | Feature     | Categorical|                 | 
-| date         | Feature     | Date       |                 | 
-| usefulCount  | Feature     | Categorical L |             | 
- 
+| Column       | Description            | Data Type   |
+|--------------|------------------------|-------------|
+| d            | ID                     | Integer     |
+| drugName     | Name of the drug       | Categorical |
+| condition    | Medical condition      | Categorical |
+| review       | Patient's review       | Categorical |
+| rating       | Rating given           | Categorical |
+| date         | Review date            | Date        |
+| usefulCount  | Count of useful votes  | Categorical |
+
 
 
 #### Objective
