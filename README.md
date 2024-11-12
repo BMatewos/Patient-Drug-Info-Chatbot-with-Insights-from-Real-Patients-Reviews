@@ -6,11 +6,22 @@ The main aim of our project is to create an intuitive chatbot that provides user
 #### Objective:
 Our main Objective is to Develop a chatbot to answer user questions about medications, providing easy-to-understand insights from patient experiences. It will address drug effectiveness, side effects, satisfaction ratings, and alternative options, offering users authentic, data-driven guidance.
 
+#### Feature of the chatbot
+Question Recognition: Responds to basic questions on drug effectiveness and side effects, such as “What are the side effects of [drug-name]?”
+Sentiment Summary: Provides a simple positive or negative summary of patient reviews for each drug.
+Drug Ratings: Shares an average rating for each drug for a quick perception overview.
+Highlighted Reviews: Displays top-rated patient reviews for deeper insights.
+Simple Text Interface: Allows users to ask questions and receive clear, concise responses based on available data.
+ 
+
 #### Dataset Link:https://archive.ics.uci.edu/dataset/462/drug+review+dataset+drugs+com
 ### Dataset Description
 The dataset has 7 columns and 161297 rows
 
  <img width="653" alt="dataset" src="https://github.com/user-attachments/assets/72658d14-1db7-45b6-b3a3-5a159b5dc7d2">
+
+
+
 
 
 
@@ -29,8 +40,6 @@ The dataset has 7 columns and 161297 rows
 
 
 
-#### Feature of the chatbot
-Personalized Drug Recommendations: Based on user inputs like symptoms, concerns, or preferences, the chatbot can suggest drugs or present reviews that match the user’s specific needs, helping them make more informed decisions.
 
 ### Steps :
 Clean the reviews by removing unnecessary characters (e.g., punctuation, HTML tags).
