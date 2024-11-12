@@ -1,10 +1,12 @@
 # 2024_ia651_Berhe_Nyamuchengwa
 ## Patient Drug Info Chatbot with Insights from Real Patients Reviews
 ### Project Overview
+The main aim of our project is to create an intuitive chatbot that provides users with quick, reliable insights on various medications, drawing from real patient reviews. By using  natural language processing (NLP) techniques, the chatbot will assist users in exploring information about a drug’s effectiveness, common side effects, and overall satisfaction ratings based on feedback from other patients. This user-friendly tool supports informed decision-making, enhancing patient confidence in managing their health.
+
 #### Dataset Link:https://archive.ics.uci.edu/dataset/462/drug+review+dataset+drugs+com
 ### Dataset Description
 The dataset has 7 columns and 161297 rows
-<img width="592" alt="dataset brief" src="https://github.com/user-attachments/assets/d37dec41-ca2d-44c3-b751-1b116aaf57db">
+
 
 
 | Column       | Description            | Data Type   |
