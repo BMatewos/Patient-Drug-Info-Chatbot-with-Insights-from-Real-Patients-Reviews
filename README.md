@@ -3,6 +3,7 @@
 ### Project Overview
 #### Dataset Link:https://archive.ics.uci.edu/dataset/462/drug+review+dataset+drugs+com
 ### Dataset Description
+The dataset has 7 columns and 161297 rows
 | Column       | Description            | Data Type   |
 |--------------|------------------------|-------------|
 | ID            | A unique identifier for each entry in the dataset                    | Integer     |
