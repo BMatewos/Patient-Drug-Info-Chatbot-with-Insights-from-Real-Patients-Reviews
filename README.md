@@ -5,13 +5,13 @@
 ### Dataset Description
 | Column       | Description            | Data Type   |
 |--------------|------------------------|-------------|
-| d            | ID                     | Integer     |
-| drugName     | Name of the drug       | Categorical |
-| condition    | Medical condition      | Categorical |
-| review       | Patient's review       | Categorical |
-| rating       | Rating given           | Categorical |
-| date         | Review date            | Date        |
-| usefulCount  | Count of useful votes  | Categorical |
+| ID            | A unique identifier for each entry in the dataset                    | Integer     |
+| drugName     | The name of the drug being reviewed     | Categorical |
+| condition    | The medical condition for which the drug was used     | Categorical |
+| review       | The textual review or feedback provided by the patient about the drug.      | Categorical |
+| rating       | The rating given by the patient for the drug, likely on a specific scale (e.g., 1-5 or 1-10).          | Categorical |
+| date         | The date when the review was submitted.          | Date        |
+| usefulCount  | The count of how many users found the review useful  | Categorical |
 
 
 
