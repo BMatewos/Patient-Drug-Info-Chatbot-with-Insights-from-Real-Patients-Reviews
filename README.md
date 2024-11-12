@@ -3,6 +3,9 @@
 ### Project Overview
 The main aim of our project is to create an intuitive chatbot that provides users with quick, reliable insights on various medications, drawing from real patient reviews. By using  natural language processing (NLP) techniques, the chatbot will assist users in exploring information about a drug’s effectiveness, common side effects, and overall satisfaction ratings based on feedback from other patients. This user-friendly tool supports informed decision-making, enhancing patient confidence in managing their health.
 
+#### Problem Statement
+
+
 #### Objective:
 Our main Objective is to Develop a chatbot to answer user questions about medications, providing easy-to-understand insights from patient experiences. It will address drug effectiveness, side effects, satisfaction ratings, and alternative options, offering users authentic, data-driven guidance.
 
@@ -38,6 +41,23 @@ The dataset has 7 columns and 161297 rows
 | usefulCount  | The count of how many users found the review useful  | Categorical |
 
 
+### defining Project Requirements: 
+                                     providing average rating,highlight helpful reviews
+### data cleaning and processing:
+                                 cleaning data, and also adding certain columns like sentiment labels,average rating
+### Intent Recognition:
+                     implement simple intent classifier to identify user questions about effectiveness,side effect or rating
+### Sentimental Abnalysis:
+                           categorize patient review as positive or negative
+### Build the chat interface:
+                           for now we will build flask which allow an input-output form where users can type questions and see response.
+                           may be later we can expand it to web app.
+### finally Test and Iterate :
+                      
+
+              
+
+                                     
 
 
 
