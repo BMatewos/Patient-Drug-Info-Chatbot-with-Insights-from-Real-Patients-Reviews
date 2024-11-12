@@ -15,7 +15,8 @@
 
 
 
-#### Objective
+#### Objective:
+Create a chatbot that provides drug-related information and insights based on real patient reviews, using Natural Language Processing (NLP).
 
 ### Steps :
 Clean the reviews by removing unnecessary characters (e.g., punctuation, HTML tags).
