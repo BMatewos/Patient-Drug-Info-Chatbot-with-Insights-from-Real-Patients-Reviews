@@ -16,3 +16,8 @@
 
 
 #### Objective
+
+### Steps :
+Clean the reviews by removing unnecessary characters (e.g., punctuation, HTML tags).
+Tokenize the text, remove stopwords, and normalize the text (e.g., lowercasing, stemming, or lemmatization).
+Label the data for training (e.g., effectiveness, side effects, dosage)
