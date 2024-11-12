@@ -18,6 +18,8 @@ The dataset has 7 columns and 161297 rows
 
 #### Objective:
 Create a chatbot that provides drug-related information and insights based on real patient reviews, using Natural Language Processing (NLP).
+#### Feature of the chatbot
+Personalized Drug Recommendations: Based on user inputs like symptoms, concerns, or preferences, the chatbot can suggest drugs or present reviews that match the user’s specific needs, helping them make more informed decisions.
 
 ### Steps :
 Clean the reviews by removing unnecessary characters (e.g., punctuation, HTML tags).
