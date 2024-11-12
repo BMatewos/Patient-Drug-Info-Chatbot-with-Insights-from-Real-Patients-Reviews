@@ -3,9 +3,16 @@
 ### Project Overview
 The main aim of our project is to create an intuitive chatbot that provides users with quick, reliable insights on various medications, drawing from real patient reviews. By using  natural language processing (NLP) techniques, the chatbot will assist users in exploring information about a drug’s effectiveness, common side effects, and overall satisfaction ratings based on feedback from other patients. This user-friendly tool supports informed decision-making, enhancing patient confidence in managing their health.
 
+#### Objective:
+Create a chatbot that provides drug-related information and insights based on real patient reviews, using Natural Language Processing (NLP).
+
 #### Dataset Link:https://archive.ics.uci.edu/dataset/462/drug+review+dataset+drugs+com
 ### Dataset Description
 The dataset has 7 columns and 161297 rows
+
+ <img width="653" alt="dataset" src="https://github.com/user-attachments/assets/72658d14-1db7-45b6-b3a3-5a159b5dc7d2">
+
+
 
 
 
@@ -21,8 +28,7 @@ The dataset has 7 columns and 161297 rows
 
 
 
-#### Objective:
-Create a chatbot that provides drug-related information and insights based on real patient reviews, using Natural Language Processing (NLP).
+
 #### Feature of the chatbot
 Personalized Drug Recommendations: Based on user inputs like symptoms, concerns, or preferences, the chatbot can suggest drugs or present reviews that match the user’s specific needs, helping them make more informed decisions.
 
