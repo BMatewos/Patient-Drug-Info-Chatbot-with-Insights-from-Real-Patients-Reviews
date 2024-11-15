@@ -37,6 +37,9 @@ The dataset has 7 columns and 161297 rows
 | date         | The date when the review was submitted.          | Date        |
 | usefulCount  | The count of how many users found the review useful  | Categorical |
 
+### steps to Achieve this:
+<img width="557" alt="Screenshot 2024-11-14 215248" src="https://github.com/user-attachments/assets/17fdbbfc-c597-4a6b-a946-bed974e314d8">
+
 
 ### defining Project Requirements: 
                                      providing average rating,highlight helpful reviews
