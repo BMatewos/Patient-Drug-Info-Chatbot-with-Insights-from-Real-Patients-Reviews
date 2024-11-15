@@ -41,19 +41,15 @@ The dataset has 7 columns and 161297 rows
 <img width="557" alt="Screenshot 2024-11-14 215248" src="https://github.com/user-attachments/assets/17fdbbfc-c597-4a6b-a946-bed974e314d8">
 
 
-### defining Project Requirements: 
-                                     providing average rating,highlight helpful reviews
-### data cleaning and processing:
-                                 cleaning data, and also adding certain columns like sentiment labels,average rating
-### Intent Recognition:
-                     implement simple intent classifier to identify user questions about effectiveness,side effect or rating
-### Sentimental Abnalysis:
-                           categorize patient review as positive or negative
-### Build the chat interface:
-                           for now we will build flask which allow an input-output form where users can type questions and see response.
-                           may be later we can expand it to web app.
-### finally Test and Iterate :
-                      
+## Section 1:Data Collection and Preprocessing
+The dataset had no missing or duplicate values making it godd data whic satisfy some requirements of qulity and good data.
+
+## Step 2 :Exploratory Data Analysis
+<img width="451" alt="review length  distribution" src="https://github.com/user-attachments/assets/76c4ffac-e012-40c1-bf76-567ad462f969">
+
+ The distribution is heavily skewed to the left, with the vast majority of reviews having relatively short lengths. Most of the reviews fall within a small range of lengths 
+ on the lower end.The majority of reviews have lengths below 2,000, as shown by the high concentration of bars in that range.There are a few reviews with significantly higher lengths (extending up to 10,000 or more), though these are relatively rare. These could represent very detailed reviews or possibly noisy data.
+
 
               
 
