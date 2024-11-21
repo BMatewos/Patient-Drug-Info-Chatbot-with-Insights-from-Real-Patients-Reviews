@@ -42,7 +42,7 @@ The dataset has 7 columns and 161297 rows
 
 
 ## Section 1:Data Collection and Preprocessing
-The dataset had no missing or duplicate values making it godd data whic satisfy some requirements of qulity and good data.
+The dataset had no missing or duplicate values making it godd data whic satisfy some requirements of quality and good data.
 
 ## Step 2 :Exploratory Data Analysis
 <img width="451" alt="review length  distribution" src="https://github.com/user-attachments/assets/76c4ffac-e012-40c1-bf76-567ad462f969">
