@@ -51,11 +51,9 @@ The dataset had no missing or duplicate values making it godd data whic satisfy 
  The distribution is heavily skewed to the left, with the vast majority of reviews having relatively short lengths. Most of the reviews fall within a small range of lengths 
  on the lower end.The majority of reviews have lengths below 2,000, as shown by the high concentration of bars in that range.There are a few reviews with significantly higher lengths (extending up to 10,000 or more), though these are relatively rare. These could indicates that a significant portion of the reviews are quite short, with many of them likely being brief comments or minimal feedback.
 
+<img width="267" alt="drug distr" src="https://github.com/user-attachments/assets/fe6d83d8-e754-4030-a5a9-211d39be8f04">
 
- <img width="422" alt="drug rating dist" src="https://github.com/user-attachments/assets/8baa592d-01e0-4b26-b5c5-b031bffdfeb8">
-
-
-
+ 
  The distribution suggests that users tend to give extreme ratings, either very high or very low, with a notable lack of neutral or middle ratings. This could reflect polarized user experiences with the drugs
 
 
