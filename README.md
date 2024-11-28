@@ -59,21 +59,22 @@ The dataset had no missing or duplicate values making it godd data whic satisfy 
 
 <img width="574" alt="most conditions" src="https://github.com/user-attachments/assets/2ee1f48c-d370-4948-9592-eedeb441a607">
 
-top ten most conditions
-
+This bar chart shows the ten most frequently mentioned conditions. Depression, Pain, and Anxiety are the top conditions, reflecting prevalent health concerns 
 
 <img width="659" alt="mostcommon drug" src="https://github.com/user-attachments/assets/34169554-f5c2-4fdc-a328-54080cedb2e4">
 
-most common drug
+This horizontal bar chart identifies the ten most frequently reviewed drugs. Drugs like Levonorgestrel and Escitalopram have the highest counts, suggesting their popularity or wide usage ,likely reflecting their effectiveness or widespread prescription.
+
+
 
 <img width="443" alt="top 5 top 3 drugs adminsitered" src="https://github.com/user-attachments/assets/3578b428-2a27-4b40-81b9-27b7f5e9c8f0">
 
-drugs administered
+This grouped bar chart links the top five conditions to the top 10 drugs administered for those conditions. It highlights which drugs are commonly used for specific health issues like Depression and Anxiety.Relationship between conditions and drugs reveals patterns in pharmaceutical treatment, with some drugs serving multiple conditions effectively.
 
 <img width="480" alt="year ratings dugs" src="https://github.com/user-attachments/assets/cc598486-998b-4c52-8316-91c61e1c3773">
 
+This line chart tracks the average ratings for the top five drugs over a period of time. The trends vary, with some drugs experiencing a decline or fluctuation in their average ratings, indicating changing user satisfaction or evolving efficacy perceptions.The fluctuating average ratings for drugs over time suggest changing user experiences, possibly due to shifts in drug formulations, side effects, or treatment expectations.
 
-average rating of drugs over time
 
 
 
