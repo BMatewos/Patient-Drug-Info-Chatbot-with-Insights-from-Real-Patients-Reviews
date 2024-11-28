@@ -103,6 +103,8 @@ A small group of medications dominates in usage and reviews, often addressing mu
 
 Overall, these findings show the value of listening to patient experiences to improve drug development, refine treatment strategies, better meet the needs of those seeking care and addressing the gaps in treatment effectiveness and patient satisfaction.
 
+## STEP 3:TEXT EMBEDDING
+
 
 
 
