@@ -57,6 +57,25 @@ The dataset had no missing or duplicate values making it godd data whic satisfy 
  The distribution suggests that users tend to give extreme ratings, either very high or very low, with a notable lack of neutral or middle ratings. This could reflect polarized user experiences with the drugs
 
 
+ <img width="267" alt="drug distr" src="https://github.com/user-attachments/assets/81c85da2-475c-46f1-9d9a-f5d1be993fc1">
+
+
+
+ <img width="267" alt="drug distr" src="https://github.com/user-attachments/assets/b4e87d6a-122b-485b-a6dd-95cedf0d8c31">
+
+
+ <img width="267" alt="drug distr" src="https://github.com/user-attachments/assets/7a1472c6-4d50-4983-9312-afdbaa0a9c28">
+
+
+
+ 
+
+
+
+ 
+
+
+
 
               
 
