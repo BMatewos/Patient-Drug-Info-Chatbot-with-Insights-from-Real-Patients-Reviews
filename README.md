@@ -101,7 +101,7 @@ This EDA provides a clear picture of how patients interact with medications and 
 
 A small group of medications dominates in usage and reviews, often addressing multiple conditions. This points to their widespread reliability but also emphasizes the need for personalized treatment options. The link between conditions and the drugs used for treatment offers valuable insights into current healthcare practices.
 
-Overall, these findings show the value of listening to patient experiences to improve drug development, refine treatment strategies, and better meet the needs of those seeking care.
+Overall, these findings show the value of listening to patient experiences to improve drug development, refine treatment strategies, better meet the needs of those seeking care and addressing the gaps in treatment effectiveness and patient satisfaction.
 
 
 
