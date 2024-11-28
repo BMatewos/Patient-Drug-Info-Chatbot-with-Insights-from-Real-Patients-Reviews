@@ -57,15 +57,38 @@ The dataset had no missing or duplicate values making it godd data whic satisfy 
  The distribution suggests that users tend to give extreme ratings, either very high or very low, with a notable lack of neutral or middle ratings. This could reflect polarized user experiences with the drugs
 
 
- <img width="267" alt="drug distr" src="https://github.com/user-attachments/assets/81c85da2-475c-46f1-9d9a-f5d1be993fc1">
+<img width="574" alt="most conditions" src="https://github.com/user-attachments/assets/2ee1f48c-d370-4948-9592-eedeb441a607">
+
+top ten most conditions
+
+
+<img width="659" alt="mostcommon drug" src="https://github.com/user-attachments/assets/34169554-f5c2-4fdc-a328-54080cedb2e4">
+
+most common drug
+
+<img width="443" alt="top 5 top 3 drugs adminsitered" src="https://github.com/user-attachments/assets/3578b428-2a27-4b40-81b9-27b7f5e9c8f0">
+
+drugs administered
+
+<img width="480" alt="year ratings dugs" src="https://github.com/user-attachments/assets/cc598486-998b-4c52-8316-91c61e1c3773">
+
+
+average rating of drugs over time
 
 
 
- <img width="267" alt="drug distr" src="https://github.com/user-attachments/assets/b4e87d6a-122b-485b-a6dd-95cedf0d8c31">
 
 
- <img width="267" alt="drug distr" src="https://github.com/user-attachments/assets/7a1472c6-4d50-4983-9312-afdbaa0a9c28">
 
+
+ 
+
+
+
+ 
+
+
+ 
 
 
  
