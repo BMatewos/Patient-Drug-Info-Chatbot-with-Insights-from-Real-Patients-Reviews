@@ -92,7 +92,7 @@ This line chart tracks the average ratings for the top five drugs over a period 
 
 <img width="465" alt="USEFULL COUNT" src="https://github.com/user-attachments/assets/e07b4b8e-e6be-48fe-9b63-1315494d503a">
 
-This box plot displays the distribution of the "useful" count (how many people found a review helpful
+This box plot illustrates how many users found the reviews helpful (useful count). Most reviews have a low useful count, with a few outliers receiving significantly higher counts, indicating that some reviews are particularly valuable to readers.
 
 
 #### SUMMARY
