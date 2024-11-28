@@ -45,6 +45,19 @@ The dataset has 7 columns and 161297 rows
 The dataset had no missing or duplicate values making it godd data whic satisfy some requirements of quality and good data.
 
 ## Step 2 :Exploratory Data Analysis
+
+
+<img width="309" alt="NEGATIVE FFEDBACK" src="https://github.com/user-attachments/assets/2ae34fb7-a1f7-4a30-951d-776b77e27cdc">
+
+The word cloud highlights the most frequent words in negative reviews. Words like "pain," "worst," "horrible," and "bad" dominate, indicating common negative experiences, including dissatisfaction with effectiveness or severe side effects.
+
+
+
+<img width="314" alt="POSITIVE FEEDBAK" src="https://github.com/user-attachments/assets/a6cb6d10-5518-4c31-9474-406f6ea63cb3">
+The word cloud for positive reviews shows words like "great," "best," "love," and "happy," suggesting high satisfaction and positive outcomes, such as improved health, happiness, or effectiveness of the medication.
+
+
+
 <img width="466" alt="review length" src="https://github.com/user-attachments/assets/852e96b5-27ba-435d-b4f5-a67d433dcf3a">
 
 
@@ -76,6 +89,12 @@ This grouped bar chart links the top five conditions to the top 10 drugs adminis
 This line chart tracks the average ratings for the top five drugs over a period of time. The trends vary, with some drugs experiencing a decline or fluctuation in their average ratings, indicating changing user satisfaction or evolving efficacy perceptions.The fluctuating average ratings for drugs over time suggest changing user experiences, possibly due to shifts in drug formulations, side effects, or treatment expectations.
 
 
+<img width="465" alt="USEFULL COUNT" src="https://github.com/user-attachments/assets/e07b4b8e-e6be-48fe-9b63-1315494d503a">
+
+This box plot displays the distribution of the "useful" count (how many people found a review helpful
+
+
+####SUMMARY
 This EDA provides a clear picture of how patients interact with medications and their experiences over time. Depression, anxiety, and pain emerge as the most common health challenges, reflecting key areas of focus for healthcare providers. Many drugs receive high ratings, suggesting overall satisfaction, but fluctuations in ratings over time highlight the importance of monitoring long-term effectiveness and patient perceptions.
 
 A small group of medications dominates in usage and reviews, often addressing multiple conditions. This points to their widespread reliability but also emphasizes the need for personalized treatment options. The link between conditions and the drugs used for treatment offers valuable insights into current healthcare practices.
