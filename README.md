@@ -95,7 +95,8 @@ This line chart tracks the average ratings for the top five drugs over a period 
 This box plot displays the distribution of the "useful" count (how many people found a review helpful
 
 
-####SUMMARY
+#### SUMMARY
+
 This EDA provides a clear picture of how patients interact with medications and their experiences over time. Depression, anxiety, and pain emerge as the most common health challenges, reflecting key areas of focus for healthcare providers. Many drugs receive high ratings, suggesting overall satisfaction, but fluctuations in ratings over time highlight the importance of monitoring long-term effectiveness and patient perceptions.
 
 A small group of medications dominates in usage and reviews, often addressing multiple conditions. This points to their widespread reliability but also emphasizes the need for personalized treatment options. The link between conditions and the drugs used for treatment offers valuable insights into current healthcare practices.
