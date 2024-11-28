@@ -54,6 +54,7 @@ The word cloud highlights the most frequent words in negative reviews. Words lik
 
 
 <img width="314" alt="POSITIVE FEEDBAK" src="https://github.com/user-attachments/assets/a6cb6d10-5518-4c31-9474-406f6ea63cb3">
+
 The word cloud for positive reviews shows words like "great," "best," "love," and "happy," suggesting high satisfaction and positive outcomes, such as improved health, happiness, or effectiveness of the medication.
 
 
