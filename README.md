@@ -149,7 +149,12 @@ The grid search process helped pinpoint the most effective configuration: a max_
 The best cross-validation score of 0.411 suggests that the model, while better than random guessing, does not yet achieve high accuracy. This may indicate the need for further fine-tuning or exploration of other model types.
 From our results results yperparameters selection imply that the alpha parameter for MultinomialNB at 0.1, a larger max_features (10000), and using both unigrams and bigrams contributed to the best performance.
 
+<img width="238" alt="confusion matrix" src="https://github.com/user-attachments/assets/fd4bb869-cad3-45f9-9733-df27edccc0a1">
+
+
 While accuracy was the initial metric considered, a deeper analysis using precision, recall, and F1-score helped identify specific weaknesses, such as underperformance in identifying certain classes. The confusion matrix confirmed that the model had a biased approach toward more frequent classes and struggled to detect rarer ones effectively
+
+
 
 #### Predictions:
 The model was tested using our raw data and processed data and the results were these:
@@ -173,9 +178,7 @@ Below are examples of how the model predicts the rating for new reviews, along w
 
 <img width="329" alt="training validation loss" src="https://github.com/user-attachments/assets/14176c6c-fd5a-4201-82a3-fd104811d408">
 
-The training loss is consistently around 0.63, indicating that the model is performing well on the training data.The validation loss remains higher (around 0.69) and does not show significant improvement across the folds, suggesting that the model may not be generalizing well to unseen data.Given that both the training and validation losses are relatively high and stable, this suggests that the model is likely underfitting. It is not capturing the complexity of the data well enough.
-
-
+The training loss is decreasing, indicating the model is fitting the training data well.However, the validation loss is increasing after a certain fold number, suggesting the model is not generalizing well to the validation data.This is a classic sign of overfitting, where the model has learned the training data too well but fails to perform on unseen data.
 
 ## Production
 
