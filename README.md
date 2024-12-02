@@ -95,7 +95,8 @@ This grouped bar chart links the top five conditions to the top 10 drugs adminis
 <img width="533" alt="average rating  over time" src="https://github.com/user-attachments/assets/4a158bd0-ec50-4677-937d-68b3fcf5dac2">
 
 
-This line chart tracks the average ratings for the top five drugs over a period of time. The trends vary, with some drugs experiencing a decline or fluctuation in their average ratings, indicating changing user satisfaction or evolving efficacy perceptions.The fluctuating average ratings for drugs over time suggest changing user experiences, possibly due to shifts in drug formulations, side effects, or treatment expectations.
+This line chart tracks the average ratings for the top five drugs over a period of time. The trends vary, with some drugs experiencing a decline or fluctuation in their average ratings, indicating changing user satisfaction or evolving efficacy perceptions.The fluctuating average ratings for drugs over time suggest changing user experiences, possibly due to shifts in drug formulations, side effects, or treatment expectations.lets look at Nexplanon:
+This drug has a clear upward trend, starting at a low average rating near 5.0 in 2008 and gradually increasing to approximately 7.5 by 2016, indicating growing acceptance or satisfaction among users.Users may report fewer side effects and greater convenience compared to other methods, enhancing satisfaction.
 
 
 <img width="450" alt="useful counts" src="https://github.com/user-attachments/assets/83546e0f-c0f3-4b52-8712-836324966df1">
