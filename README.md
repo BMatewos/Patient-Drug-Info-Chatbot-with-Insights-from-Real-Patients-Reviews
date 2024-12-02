@@ -158,7 +158,7 @@ The model was tested using our raw data and processed data and the results were 
 
 ##### Prediction from new data
 
-## Model Prediction Examples
+#### Model Prediction Examples
 
 Below are examples of how the model predicts the rating for new reviews, along with additional details such as the drug name, condition, and actual rating:
 
@@ -169,6 +169,17 @@ Below are examples of how the model predicts the rating for new reviews, along w
 
 
 
+### Training and Loss Validation
+
+<img width="329" alt="training validation loss" src="https://github.com/user-attachments/assets/14176c6c-fd5a-4201-82a3-fd104811d408">
+
+The training loss is consistently around 0.63, indicating that the model is performing well on the training data.The validation loss remains higher (around 0.69) and does not show significant improvement across the folds, suggesting that the model may not be generalizing well to unseen data.Given that both the training and validation losses are relatively high and stable, this suggests that the model is likely underfitting. It is not capturing the complexity of the data well enough.
+
+
+
+## Production
+
+## Going Further
 
 
 
