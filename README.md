@@ -149,6 +149,10 @@ The grid search process helped pinpoint the most effective configuration: a max_
 The best cross-validation score of 0.514 suggests that the model, while better than random guessing, does not yet achieve high accuracy. This may indicate the need for further fine-tuning or exploration of other model types.
 From our results results yperparameters selection imply that the alpha parameter for MultinomialNB at 0.1, a larger max_features (10000), and using both unigrams and bigrams contributed to the best performance.
 
+While accuracy was the initial metric considered, a deeper analysis using precision, recall, and F1-score helped identify specific weaknesses, such as underperformance in identifying certain classes. The confusion matrix confirmed that the model had a biased approach toward more frequent classes and struggled to detect rarer ones effectively
+
+#### Predictions:
+
 
 
 
