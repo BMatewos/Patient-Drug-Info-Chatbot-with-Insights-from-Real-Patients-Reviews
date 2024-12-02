@@ -161,9 +161,9 @@ The model was tested using our raw data and processed data and the results were 
 
 <img width="521" alt="testing" src="https://github.com/user-attachments/assets/0ff7209c-d5b6-4cca-9d83-44691fad28e6">
 
-##### Prediction from new data
+#### Prediction from new data
 
-#### Model Prediction Examples
+##### Model Prediction Examples
 
 Below are examples of how the model predicts the rating for new reviews, along with additional details such as the drug name, condition, and actual rating:
 
