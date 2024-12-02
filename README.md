@@ -119,11 +119,11 @@ top 10 bigrams
 top 10 trigrams
 
 
-<img width="283" alt="correlation matrix" src="https://github.com/user-attachments/assets/5d2f128d-b6ec-46a0-b479-cc031cfc8ae7">
+
 
 correlation
 
-
+<img width="283" alt="correlation matrix" src="https://github.com/user-attachments/assets/5d2f128d-b6ec-46a0-b479-cc031cfc8ae7">
 
 
 
@@ -140,6 +140,14 @@ A small group of medications dominates in usage and reviews, often addressing mu
 Overall, these findings show the value of listening to patient experiences to improve drug development, refine treatment strategies, better meet the needs of those seeking care and addressing the gaps in treatment effectiveness and patient satisfaction.
 
 ## STEP 3:Model Fitting
+ The Naive Bayes model used was MultinomialNB.The motive behind this model is because it is well-suited for text data where the features represent the count or frequency of words. This aligns well with how TF-IDF Vectorizer works, which converts text into a matrix of TF-IDF features.We used TFIDF vectoriser instead of count Vectorizer the reason being it helps represent the importance of words in the corpus. Words that are frequently used in a document but rare across the whole dataset get higher weights, improving the differentiation between documents, also TF-IDF Vectorizer can handle a large vocabulary and transform it into a sparse feature matrix, making it suitable for models like MultinomialNB.
+
+ Train -test-Split was done using train-test-split() from sklearn.The data was divided into 80% train data and 20% test data ,to ensure that the model is trained on a sustantial portion of tha data while keeping a separate for validation and testing.
+
+The process for hyperparameter selection involved using GridSearchCV to identify the best parameters for both the TfidfVectorizer and MultinomialNB model. We set up a parameter grid with options for the number of features (max_features), n-gram range (ngram_range), and smoothing parameter (alpha). We applied 5-fold cross-validation to ensure robust evaluation of each parameter combination, with accuracy as the scoring metric.
+The grid search process helped pinpoint the most effective configuration: a max_features of 10,000, an ngram_range of (1, 2), and an alpha of 0.1. This approach allowed us to systematically explore different hyperparameter combinations and find the optimal ones to improve model performance. Cross-validation helped us avoid overfitting and ensured that the model's performance was evaluated on different subsets of the training data for better generalization.
+The best cross-validation score of 0.514 suggests that the model, while better than random guessing, does not yet achieve high accuracy. This may indicate the need for further fine-tuning or exploration of other model types.
+From our results results yperparameters selection imply that the alpha parameter for MultinomialNB at 0.1, a larger max_features (10000), and using both unigrams and bigrams contributed to the best performance.
 
 
 
