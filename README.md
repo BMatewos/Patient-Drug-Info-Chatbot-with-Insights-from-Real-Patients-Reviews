@@ -60,6 +60,7 @@ The word cloud highlights the most frequent words in negative reviews. Words lik
 
 <img width="383" alt="positive word reviews" src="https://github.com/user-attachments/assets/8bb338ce-def7-4591-8d95-a3c35e502001">
 
+*Figure 2: Positive Word Cloud*
 
 The word cloud for positive reviews shows words like "great," "best," "love," and "happy," suggesting high satisfaction and positive outcomes, such as improved health, happiness, or effectiveness of the medication.
 
@@ -67,25 +68,27 @@ The word cloud for positive reviews shows words like "great," "best," "love," an
 
 <img width="344" alt="review length" src="https://github.com/user-attachments/assets/c6f9cfec-57a9-4fb1-a20e-3ef71b3d1fef">
 
+*Figure 3: Review length histogram*
 
-
- The distribution is heavily skewed to the left, with the vast majority of reviews having relatively short lengths. Most of the reviews fall within a small range of lengths 
+The distribution is heavily skewed to the left, with the vast majority of reviews having relatively short lengths. Most of the reviews fall within a small range of lengths 
  on the lower end.The majority of reviews have lengths below 2,000, as shown by the high concentration of bars in that range.There are a few reviews with significantly higher lengths (extending up to 10,000 or more), though these are relatively rare. These could indicates that a significant portion of the reviews are quite short, with many of them likely being brief comments or minimal feedback.
 
 <img width="499" alt="distribution of drug ratings" src="https://github.com/user-attachments/assets/72f7d41c-b19e-4db3-a1ac-f8a228e5f8ec">
 
+*Figure 4: Ratings Histogram*
 
- 
- The distribution suggests that users tend to give extreme ratings, either very high or very low, with a notable lack of neutral or middle ratings. This could reflect polarized user experiences with the drugs
+The distribution suggests that users tend to give extreme ratings, either very high or very low, with a notable lack of neutral or middle ratings. This could reflect polarized user experiences with the drugs
 
 
 <img width="473" alt="top 10 c0nditions" src="https://github.com/user-attachments/assets/41d0a609-77d7-4c47-9777-31528668d7fa">
 
+*Figure 5: Top 10 Conditions*
 
 This bar chart shows the ten most frequently mentioned conditions. Depression, Pain, and Anxiety are the top conditions, reflecting prevalent health concerns 
 
 <img width="479" alt="most common drugs" src="https://github.com/user-attachments/assets/d450149d-5bdb-4874-8b72-68216fe99cf5">
 
+*Figure 6: Most Common Drugs*
 
 This horizontal bar chart identifies the ten most frequently reviewed drugs. Drugs like Levonorgestrel and Escitalopram have the highest counts, suggesting their popularity or wide usage ,likely reflecting their effectiveness or widespread prescription.
 
@@ -93,32 +96,27 @@ This horizontal bar chart identifies the ten most frequently reviewed drugs. Dru
 
 <img width="443" alt="top 5 top 3 drugs adminsitered" src="https://github.com/user-attachments/assets/3578b428-2a27-4b40-81b9-27b7f5e9c8f0">
 
+*Figure 7: Top 5 conditions vs drugs*
+
 This grouped bar chart links the top five conditions to the top 10 drugs administered for those conditions. It highlights which drugs are commonly used for specific health issues like Depression and Anxiety.Relationship between conditions and drugs reveals patterns in pharmaceutical treatment, with some drugs serving multiple conditions effectively.
 
 <img width="533" alt="average rating  over time" src="https://github.com/user-attachments/assets/4a158bd0-ec50-4677-937d-68b3fcf5dac2">
 
+*Figure 8: Average rating over time*
 
 This line chart tracks the average ratings for the top five drugs over a period of time. The trends vary, with some drugs experiencing a decline or fluctuation in their average ratings, indicating changing user satisfaction or evolving efficacy perceptions.The fluctuating average ratings for drugs over time suggest changing user experiences, possibly due to shifts in drug formulations, side effects, or treatment expectations.lets look at Nexplanon:
 This drug has a clear upward trend, starting at a low average rating near 5.0 in 2008 and gradually increasing to approximately 7.5 by 2016, indicating growing acceptance or satisfaction among users.Users may report fewer side effects and greater convenience compared to other methods, enhancing satisfaction.
 
-
-<img width="450" alt="useful counts" src="https://github.com/user-attachments/assets/83546e0f-c0f3-4b52-8712-836324966df1">
-
-
-This box plot illustrates how many users found the reviews helpful (useful count). Most reviews have a low useful count, with a few outliers receiving significantly higher counts, indicating that some reviews are particularly valuable to readers.
-
-
-<img width="470" alt="ratings distributions" src="https://github.com/user-attachments/assets/18458143-e3d6-4487-8826-0c4547844f7b">
-
-box plot of ratings distributions
-
-
 <img width="426" alt="top 10 bigrams" src="https://github.com/user-attachments/assets/ade3a1be-a7b8-4f45-8d55-94e2f431318a">
 
-top 10 bigrams
+*Figure 9: Top 10 Bigrams*
+
+
 
 
 <img width="467" alt="top 10 trigram" src="https://github.com/user-attachments/assets/6de59a13-401d-44bf-8987-0168b2d1b958">
+
+*Figure 10: Top 10 Trigrams*
 
 top 10 trigrams
 
