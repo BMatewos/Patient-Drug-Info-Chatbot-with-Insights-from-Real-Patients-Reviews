@@ -158,11 +158,15 @@ The model was tested using our raw data and processed data and the results were 
 
 ##### Prediction from new data
 
-Below is an example of how the model predicts the rating for a new review, along with additional details such as the drug name, condition, and actual rating:
+## Model Prediction Examples
 
-| **Review**                                                                                 | **Drug Name** | **Condition**           | **Actual Rating** | **Predicted Rating** |
-|-------------------------------------------------------------------------------------------|---------------|-------------------------|-------------------|---------------------|
-| *"Limited improvement month developed bad rash md refused continue medication"*           | Abatacept     | Rheumatoid Arthritis    | 2                 | 1                   |
+Below are examples of how the model predicts the rating for new reviews, along with additional details such as the drug name, condition, and actual rating:
+
+| **Review**                                                                                                                               | **Drug Name**              | **Condition**           | **Actual Rating** | **Predicted Rating** |
+|------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|-------------------------|-------------------|-----------------------|
+| *"Limited improvement month developed bad rash md refused continue medication"*                                                         | Abatacept                  | Rheumatoid Arthritis    | 2                 | 1                     |
+| *"Suboxone completely turned life around feel healthier im excelling job always money pocket saving account none suboxone spent year abusing oxycontin paycheck already spent time got started resorting scheming stealing fund addiction history youre ready stop there good chance suboxone put path great life found sideeffects minimal compared oxycontin im actually sleeping better slight constipation truly amazing cost pale comparison spent oxycontin"* | Buprenorphine / naloxone   | Opiate Dependence        | 9                 | 10                    |
+
 
 
 
