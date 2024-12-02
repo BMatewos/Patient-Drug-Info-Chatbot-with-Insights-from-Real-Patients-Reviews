@@ -152,6 +152,20 @@ From our results results yperparameters selection imply that the alpha parameter
 While accuracy was the initial metric considered, a deeper analysis using precision, recall, and F1-score helped identify specific weaknesses, such as underperformance in identifying certain classes. The confusion matrix confirmed that the model had a biased approach toward more frequent classes and struggled to detect rarer ones effectively
 
 #### Predictions:
+The model was tested using our raw data and processed data and the results were these:
+
+<img width="521" alt="testing" src="https://github.com/user-attachments/assets/0ff7209c-d5b6-4cca-9d83-44691fad28e6">
+
+##### Prediction from new data
+
+Below is an example of how the model predicts the rating for a new review, along with additional details such as the drug name, condition, and actual rating:
+
+| **Review**                                                                                 | **Drug Name** | **Condition**           | **Actual Rating** | **Predicted Rating** |
+|-------------------------------------------------------------------------------------------|---------------|-------------------------|-------------------|---------------------|
+| *"Limited improvement month developed bad rash md refused continue medication"*           | Abatacept     | Rheumatoid Arthritis    | 2                 | 1                   |
+
+
+
 
 
 
