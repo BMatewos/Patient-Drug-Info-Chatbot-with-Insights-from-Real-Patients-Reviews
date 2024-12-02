@@ -53,6 +53,7 @@ The dataset had no missing or duplicate values making it godd data whic satisfy 
 
 
 *Figure 1: Negative Word Cloud*
+
 The word cloud highlights the most frequent words in negative reviews. Words like "pain," "worst," "horrible," and "bad" dominate, indicating common negative experiences, including dissatisfaction with effectiveness or severe side effects.
 
 
