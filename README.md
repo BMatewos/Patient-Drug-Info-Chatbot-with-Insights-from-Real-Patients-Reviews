@@ -111,6 +111,7 @@ This drug has a clear upward trend, starting at a low average rating near 5.0 in
 
 *Figure 9: Top 10 Bigrams*
 
+The prominence of "birth control" reinforces that contraceptive methods are a primary focus of user reviews.Emotional responses and side effects are critical themes, reflecting users' concerns about their experiences.References to age and time indicate that personal context plays a significant role in user feedback.
 
 
 
@@ -118,7 +119,8 @@ This drug has a clear upward trend, starting at a low average rating near 5.0 in
 
 *Figure 10: Top 10 Trigrams*
 
-top 10 trigrams
+"birth control" appears to be the most common trigram, suggesting a strong focus on contraceptive topics in the reviews."im year old" and "mg twice day" are also highly frequent, indicating that users may often mention their age and dosage instructions."high blood pressure" suggests concerns related to medical conditions that may be relevant to the drugs being reviewed.
+
 
 
 
