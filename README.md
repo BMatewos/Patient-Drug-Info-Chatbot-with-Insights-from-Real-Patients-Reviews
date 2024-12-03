@@ -161,6 +161,8 @@ From our results results yperparameters selection imply that the alpha parameter
 
 <img width="238" alt="confusion matrix" src="https://github.com/user-attachments/assets/fd4bb869-cad3-45f9-9733-df27edccc0a1">
 
+*Figure 12:Confusion Matrix*
+
 
 While accuracy was the initial metric considered, a deeper analysis using precision, recall, and F1-score helped identify specific weaknesses, such as underperformance in identifying certain classes. The confusion matrix confirmed that the model had a biased approach toward more frequent classes and struggled to detect rarer ones effectively
 
@@ -170,6 +172,8 @@ While accuracy was the initial metric considered, a deeper analysis using precis
 The model was tested using our raw data and processed data and the results were these:
 
 <img width="521" alt="testing" src="https://github.com/user-attachments/assets/0ff7209c-d5b6-4cca-9d83-44691fad28e6">
+
+*Figure 13:testing code*
 
 #### Prediction from new data
 
