@@ -192,7 +192,7 @@ Below are examples of how the model predicts the rating for new reviews, along w
 | *"Limited improvement month developed bad rash md refused continue medication"*                                                         | Abatacept                  | Rheumatoid Arthritis    | 4                | 1                     |
 | *"Suboxone completely turned life around feel healthier im excelling job always money pocket saving account none suboxone spent year abusing oxycontin paycheck already spent time got started resorting scheming stealing fund addiction history youre ready stop there good chance suboxone put path great life found sideeffects minimal compared oxycontin im actually sleeping better slight constipation truly amazing cost pale comparison spent oxycontin"* | Buprenorphine / naloxone   | Opiate Dependence        | 9                 | 10                    |
 
-
+*Table 3:Predictions*
 
 ### Training and Loss Validation
 
