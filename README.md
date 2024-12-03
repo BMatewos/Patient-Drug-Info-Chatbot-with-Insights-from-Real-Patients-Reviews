@@ -247,6 +247,14 @@ A review predicting a rating of 9 might correspond to positive feedback indicati
 A review predicting a rating of 2 could stem from negative experiences, highlighting side effects or lack of efficacy.
 #### From New Data
 
+| *Field*               | *Value*                                                                                      |
+|-------------------------|-----------------------------------------------------------------------------------------------|
+| *Answer from Reviews* | medicine ive ever used helped decrease anxiety helped anxiety medicine                        |
+| *Average Rating*      | 10.00                                                                                        |
+| *Drugs Mentioned*     | Clonazepam, Klonopin, Valium, Diazepam                                                       |
+| *Positive Reviews*    | - helped anxiety medicine<br>- medicine ive ever used helped decrease anxiety                |
+| *Negative Reviews*    | No negative reviews found.                                                                   |
+
 
 
 
