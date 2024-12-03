@@ -42,7 +42,8 @@ The dataset has 7 columns and 161297 rows
 *Table 2:data description*
 
 ### steps to Achieve this:
-<img width="557" alt="Screenshot 2024-11-14 215248" src="https://github.com/user-attachments/assets/17fdbbfc-c597-4a6b-a946-bed974e314d8">
+
+https://github.com/Clarkson-Applied-Data-Science/2024_ia651_Berhe_Nyamuchengwa/blob/main/FIGURE%2000.png
 
 *Figure 00 :Steps Taken*
 
