@@ -20,6 +20,8 @@ The dataset has 7 columns and 161297 rows
 
  <img width="653" alt="dataset" src="https://github.com/user-attachments/assets/72658d14-1db7-45b6-b3a3-5a159b5dc7d2">
 
+ *Table 1:dataset*
+
 
 
 
@@ -37,8 +39,12 @@ The dataset has 7 columns and 161297 rows
 | date         | The date when the review was submitted.          | Date        |
 | usefulCount  | The count of how many users found the review useful  | Categorical |
 
+*Table 2:data description*
+
 ### steps to Achieve this:
 <img width="557" alt="Screenshot 2024-11-14 215248" src="https://github.com/user-attachments/assets/17fdbbfc-c597-4a6b-a946-bed974e314d8">
+
+*Figure 00 :Steps Taken*
 
 
 ## Section 1:Data Collection and Preprocessing
