@@ -42,7 +42,7 @@ The dataset has 7 columns and 161297 rows
 
 
 ## Section 1:Data Collection and Preprocessing
-The dataset had no missing or duplicate values making it godd data whic satisfy some requirements of quality and good data.
+The data collection and preprocessing involved loading the drugs.csv file directly into a pandas DataFrame . Following the import, unnecessary columns were removed, and rows with missing values in critical fields were eliminated. The date column was converted to a datetime format, and duplicate entries were removed. A preprocessing function was then applied to clean the text data by converting it to lowercase, removing special characters and numbers, handling negation phrases, and lemmatizing words while filtering out stopwords. New columns for cleaned reviews, review length, and word count were added, followed by the removal of rows with very short reviews for example 1 or 2 words which did no means anything, thus preparing the dataset for further analysis.
 
 ## Step 2 :Exploratory Data Analysis
 
