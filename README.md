@@ -127,10 +127,12 @@ The prominence of "birth control" reinforces that contraceptive methods are a pr
 
 
 
+
 <img width="283" alt="correlation matrix" src="https://github.com/user-attachments/assets/5d2f128d-b6ec-46a0-b479-cc031cfc8ae7">
 
 *Figure 11:correlation matrix*
 
+The correlation heatmap illustrates the relationship between review length and rating. The correlation coefficient between these two variables is 0.01, indicating a negligible correlation. This suggests that there is no significant relationship between the length of reviews and the ratings given by users, as the values are close to zero.
 
 
 
