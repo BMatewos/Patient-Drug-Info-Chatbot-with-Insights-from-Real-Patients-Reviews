@@ -243,6 +243,7 @@ But the model exhibited some weakness though accuracy was found out to be o.67.T
 ### Predictions:
 #### from Data
 A review predicting a rating of 9 might correspond to positive feedback indicating satisfaction with a medication’s effectiveness.
+
 A review predicting a rating of 2 could stem from negative experiences, highlighting side effects or lack of efficacy.
 #### From New Data
 
