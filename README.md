@@ -158,6 +158,7 @@ A small group of medications dominates in usage and reviews, often addressing mu
 Overall, these findings show the value of listening to patient experiences to improve drug development, refine treatment strategies, better meet the needs of those seeking care and addressing the gaps in treatment effectiveness and patient satisfaction.
 
 ## STEP 3:Model Fitting
+### Naive Bayes Multinomial Model
  The Naive Bayes model used was MultinomialNB.The motive behind this model is because it is well-suited for text data where the features represent the count or frequency of words. This aligns well with how TF-IDF Vectorizer works, which converts text into a matrix of TF-IDF features.We used TFIDF vectoriser instead of count Vectorizer the reason being it helps represent the importance of words in the corpus. Words that are frequently used in a document but rare across the whole dataset get higher weights, improving the differentiation between documents, also TF-IDF Vectorizer can handle a large vocabulary and transform it into a sparse feature matrix, making it suitable for models like MultinomialNB.
 
  Train -test-Split was done using train-test-split() from sklearn.The data was divided into 80% train data and 20% test data ,to ensure that the model is trained on a sustantial portion of tha data while keeping a separate for validation and testing.
@@ -196,11 +197,57 @@ Below are examples of how the model predicts the rating for new reviews, along w
 
 *Table 3:Predictions*
 
-### Training and Loss Validation
+#### Training and Loss Validation
 
 <img width="329" alt="training validation loss" src="https://github.com/user-attachments/assets/14176c6c-fd5a-4201-82a3-fd104811d408">
 
 The training loss is decreasing, indicating the model is fitting the training data well.However, the validation loss is increasing after a certain fold number, suggesting the model is not generalizing well to the validation data.This is a classic sign of overfitting, where the model has learned the training data too well but fails to perform on unseen data.
+
+### Neural Network
+
+We implemented the Neural network model.The reason behind the choice is :Neural networks  automatically learn relevant features from raw data, reducing the need for extensive feature engineering. This is particularly useful in high-dimensional spaces.Employing a neural network model for this dataset can facilitate a deeper understanding of user sentiments, improve predictive modeling for ratings based on reviews, and adapt to the complexity and variability of natural language, ultimately leading to better insights into drug effectiveness and user experiences.
+
+The architecture used in the code is a Long Short-Term Memory (LSTM) network, which is a type of Recurrent Neural Network (RNN) well-suited for sequence data, such as text.The model has 5 layers listed as follows:
+Architecture Components:
+##### Embedding Layer:
+Input Dimension: 5000 (number of words to consider in the vocabulary).
+Output Dimension: 128 (size of the embedding vector for each word).
+This layer transforms input sequences into dense vectors of fixed size, capturing semantic relationships between words.
+
+##### LSTM Layer:
+Units: 128 (the number of LSTM units).
+Return Sequences: False (this means that only the output of the last time step is returned, which is appropriate for regression tasks).
+LSTMs are effective in capturing long-range dependencies in sequential data, which is crucial for understanding context in text reviews.
+
+##### Dropout Layer:
+Dropout Rate: 0.5 (50% of the neurons are randomly dropped during training).
+This helps prevent overfitting by making the model more robust and ensuring it does not rely too heavily on any particular feature.
+
+##### Dense Layer:
+Units: 64 (the number of neurons in this fully connected layer).
+Activation Function: relu (Rectified Linear Unit), which introduces non-linearity to the model and helps it learn complex patterns.
+
+##### Output Layer:
+Units: 1 (for regression output).
+Activation Function: linear (suitable for predicting continuous values like ratings).
+
+#### Hyperparametres:
+
+Batch Size (32): Processes 32 reviews at a time, balancing memory usage and stable gradient estimates, which helps the model learn diverse patterns from user-generated content.
+Epochs (5): The model trains over the entire dataset five times, refining its understanding of the relationship between review text and ratings. This number may need adjustment if overfitting occurs.
+Optimizer (Adam): An adaptive learning rate algorithm that enhances convergence speed and model performance, effectively handling the noisy nature of user reviews.
+Loss Function (Mean Squared Error - MSE): Measures the average squared difference between predicted and actual ratings, emphasizing larger errors to ensure significant ratings are accurately predicted.
+
+R² Score was used and it indicates the proportion of variance explained by the model, with a score of approximately 0.67 suggesting a moderate level of predictive accuracy.
+But the model exhibited some weakness though accuracy was found out to be o.67.The model exhibits some error, as indicated by the MAE (1.23) and RMSE (1.88). This suggests that while it performs reasonably well, there are instances where predictions deviate significantly from actual ratings.
+### Predictions:
+#### from Data
+A review predicting a rating of 9 might correspond to positive feedback indicating satisfaction with a medication’s effectiveness.
+A review predicting a rating of 2 could stem from negative experiences, highlighting side effects or lack of efficacy.
+#### From New Data
+
+
+
 
 ## Production
 
