@@ -84,7 +84,7 @@ The distribution suggests that users tend to give extreme ratings, either very h
 
 *Figure 5: Top 10 Conditions*
 
-This bar chart shows the ten most frequently mentioned conditions. Depression, Pain, and Anxiety are the top conditions, reflecting prevalent health concerns 
+This bar chart shows the ten most frequently mentioned conditions. Depression, Pain, and Anxiety are the top conditions, reflecting prevalent health concerns. The overwhelming focus on birth control suggests it is a primary concern among users.Mental health conditions like depression and anxiety are significant themes, indicating a need for support and treatment in these areas.A variety of physical health issues are also discussed, emphasizing the diverse range of conditions that users are addressing.
 
 <img width="479" alt="most common drugs" src="https://github.com/user-attachments/assets/d450149d-5bdb-4874-8b72-68216fe99cf5">
 
