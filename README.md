@@ -256,6 +256,8 @@ A review predicting a rating of 2 could stem from negative experiences, highligh
 | *Positive Reviews*    | helped anxiety medicine<br>- medicine ive ever used helped decrease anxiety                |
 | *Negative Reviews*    | No negative reviews found.                                                                   |
 
+*Table 4:Chatbot output*
+
 
 ### Multi-Output Model and Chatbot Overview
 
@@ -283,13 +285,7 @@ The chatbot integrates with the prediction model and operates as follows:
 7. **Continuous Learning:** Improves with user feedback and reinforcement learning.
 
 #### Example Workflow
-1. **User Query:** “What’s the best drug for migraines?”
-2. **Processing:** Identifies intent and keywords, and the model predicts:
-   - Drug: “Sumatriptan”
-   - Rating: 4.5
-   - Review: “Effective for most users with mild side effects.”
-3. **Response:** “For migraines, Sumatriptan is recommended with a 4.5 rating. Users find it effective with mild side effects.”
-
+Refer to table 3 above
 
 ## Production
 
