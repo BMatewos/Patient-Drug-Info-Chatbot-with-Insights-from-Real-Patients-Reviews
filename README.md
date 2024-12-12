@@ -256,6 +256,38 @@ A review predicting a rating of 2 could stem from negative experiences, highligh
 | *Negative Reviews*    | No negative reviews found.                                                                   |
 
 
+### Multi-Output Model and Chatbot Overview
+
+#### Multi-Output Prediction: Drugs, Rating, and Review
+The model predicts multiple outputs (drugs, rating, reviews) using a multi-task learning framework:
+
+1. **Input Preprocessing:** Processes input data with tokenization and embeddings.
+2. **Shared Encoder:** Extracts features using CNNs, LSTMs, or transformers.
+3. **Task-Specific Heads:**\n
+   - **Drug Prediction:** Identifies the prescribed drug (softmax classifier).
+   - **Rating Prediction:** Predicts ratings (regression or ordinal classification).
+   - **Review Generation:** Generates text reviews (sequence-to-sequence model).
+4. **Loss Functions and Optimization:** Combines task-specific losses and optimizes end-to-end.
+5. **Output Post-Processing:** Decodes predictions into human-readable formats.
+
+#### Chatbot Functionality
+The chatbot integrates with the prediction model and operates as follows:
+
+1. **Natural Language Understanding (NLU):** Extracts intents and entities using models like BERT.
+2. **Dialogue Management:** Determines responses based on conversation state.
+3. **Response Generation:** Uses templates or neural models for contextual replies.
+4. **Multi-Turn Conversations:** Tracks history for coherent interactions.
+5. **Integration with Prediction Model:** Queries the model for outputs and combines them into responses.
+6. **Safety Mechanisms:** Filters inappropriate content and provides disclaimers.
+7. **Continuous Learning:** Improves with user feedback and reinforcement learning.
+
+#### Example Workflow
+1. **User Query:** “What’s the best drug for migraines?”
+2. **Processing:** Identifies intent and keywords, and the model predicts:
+   - Drug: “Sumatriptan”
+   - Rating: 4.5
+   - Review: “Effective for most users with mild side effects.”
+3. **Response:** “For migraines, Sumatriptan is recommended with a 4.5 rating. Users find it effective with mild side effects.”
 
 
 ## Production
