@@ -249,10 +249,11 @@ A review predicting a rating of 2 could stem from negative experiences, highligh
 
 | *Field*               | *Value*                                                                                      |
 |-------------------------|-----------------------------------------------------------------------------------------------|
+| * Query*              | What are reviews for drug treating ANXIETY                                                                                              |
 | *Answer from Reviews* | medicine ive ever used helped decrease anxiety helped anxiety medicine                        |
 | *Average Rating*      | 10.00                                                                                        |
 | *Drugs Mentioned*     | Clonazepam, Klonopin, Valium, Diazepam                                                       |
-| *Positive Reviews*    | - helped anxiety medicine<br>- medicine ive ever used helped decrease anxiety                |
+| *Positive Reviews*    | helped anxiety medicine<br>- medicine ive ever used helped decrease anxiety                |
 | *Negative Reviews*    | No negative reviews found.                                                                   |
 
 
