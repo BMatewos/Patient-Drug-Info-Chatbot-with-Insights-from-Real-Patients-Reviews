@@ -285,7 +285,7 @@ The chatbot integrates with the prediction model and operates as follows:
 7. **Continuous Learning:** Improves with user feedback and reinforcement learning.
 
 #### Example Workflow
-Refer to table 3 above
+Refer to table 4 above
 
 ## Production
 
