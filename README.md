@@ -326,11 +326,11 @@ The chatbot provides two main functions:
 
 ### Example Response:
 **Input:** “What are the reviews for drugs treating anxiety?”
+```
 Welcome to the Drug Review Chatbot!  
 Type your question (e.g., 'What are reviews for drugs treating anxiety?') or submit a drug review.  
 Type 'exit' to quit.  
-
-```json
+json
 {
   "Answer from Reviews": "Answer for 'What are the reviews for drugs treating anxiety?' based on the context: Xanax is effective...",
   "Average Rating": 10.00,
