@@ -258,34 +258,128 @@ A review predicting a rating of 2 could stem from negative experiences, highligh
 
 *Table 4:Chatbot output*
 
+## **Model Functionality: Multi-Output Predictions**
 
-### Multi-Output Model and Chatbot Overview
+### **Current Implementation: Rating Prediction**
+The neural network model predicts drug review ratings based on user-provided text. Here’s how it works:
 
-#### Multi-Output Prediction: Drugs, Rating, and Review
-The model predicts multiple outputs (drugs, rating, reviews) using a multi-task learning framework:
+### **1. Input Preprocessing**
+- Reviews are tokenized using the `Tokenizer` class, which maps words to numerical indices.
+- Tokenized sequences are padded to a fixed length of 100 for uniformity.
 
-1. **Input Preprocessing:** Processes input data with tokenization and embeddings.
-2. **Shared Encoder:** Extracts features using CNNs, LSTMs, or transformers.
-3. **Task-Specific Heads:**\n
-   - **Drug Prediction:** Identifies the prescribed drug (softmax classifier).
-   - **Rating Prediction:** Predicts ratings (regression or ordinal classification).
-   - **Review Generation:** Generates text reviews (sequence-to-sequence model).
-4. **Loss Functions and Optimization:** Combines task-specific losses and optimizes end-to-end.
-5. **Output Post-Processing:** Decodes predictions into human-readable formats.
+### **2. Model Architecture**
+- **Embedding Layer:** Converts words into dense vectors (size 128), capturing semantic relationships.
+- **LSTM Layer:** Processes the sequence and extracts temporal features.
+- **Dense Layers:** Apply additional feature extraction and produce a single numerical output for ratings.
 
-#### Chatbot Functionality
-The chatbot integrates with the prediction model and operates as follows:
+### **3. Training**
+- **Loss Function:** Mean Squared Error (MSE) for regression.
+- **Optimization:** Adam optimizer.
+- **Metrics:** Mean Absolute Error (MAE) and MSE for evaluation.
 
-1. **Natural Language Understanding (NLU):** Extracts intents and entities using models like BERT.
-2. **Dialogue Management:** Determines responses based on conversation state.
-3. **Response Generation:** Uses templates or neural models for contextual replies.
-4. **Multi-Turn Conversations:** Tracks history for coherent interactions.
-5. **Integration with Prediction Model:** Queries the model for outputs and combines them into responses.
-6. **Safety Mechanisms:** Filters inappropriate content and provides disclaimers.
-7. **Continuous Learning:** Improves with user feedback and reinforcement learning.
+### **4. Evaluation**
+The model evaluates its performance using MAE, MSE, and R-squared (R²) score to measure prediction accuracy.
 
-#### Example Workflow
-Refer to table 4 above
+---
+
+### **Extending to Multi-Output Predictions**
+The current implementation predicts ratings only. To extend the model for multi-output tasks such as drug identification and review generation:
+
+1. **Shared Encoder:**
+   - LSTM layers extract shared features from the input text.
+2. **Task-Specific Heads:**
+   - **Drug Prediction:** Add a dense layer with softmax activation for classification.
+   - **Review Generation:** Implement a sequence-to-sequence (Seq2Seq) model for text generation.
+   - **Rating Prediction:** Retain the current regression head.
+3. **Loss Functions:**
+   - Combine task-specific losses (e.g., cross-entropy for drugs, MSE for ratings, and categorical cross-entropy for review generation).
+4. **Optimization:**
+   - Train the model end-to-end using a combined loss function.
+
+---
+
+## **Chatbot Functionality**
+
+The chatbot provides two main functions:
+1. **Question Answering**: Retrieves relevant reviews and insights.
+2. **Review Rating Prediction**: Predicts a numerical rating for a given review.
+
+### **1. Question Answering Workflow**
+#### **1.1. Input Classification**
+- Inputs ending with a `?` are treated as questions.
+
+#### **1.2. Relevant Document Retrieval**
+- Uses the `retrieve_relevant_documents` function to query the dataset for reviews matching the question.
+- Returns the top 5 matching reviews.
+
+#### **1.3. Context Preparation**
+- The `prepare_context` function concatenates retrieved reviews into a single context for analysis.
+
+#### **1.4. Semantic Question Answering**
+- Uses the `semantic_question_answering` function to generate an answer based on the context.
+
+#### **1.5. Additional Insights**
+- **Average Rating:** Calculates the mean rating of retrieved reviews.
+- **Drugs Mentioned:** Extracts unique drug names from reviews.
+- **Categorized Reviews:** Segregates positive (rating ≥ 7) and negative (rating < 7) reviews.
+- **Deduplication:** Removes duplicate reviews.
+
+### Example Response:
+**Input:** “What are the reviews for drugs treating anxiety?”
+Welcome to the Drug Review Chatbot!  
+Type your question (e.g., 'What are reviews for drugs treating anxiety?') or submit a drug review.  
+Type 'exit' to quit.  
+
+```json
+{
+  "Answer from Reviews": "Answer for 'What are the reviews for drugs treating anxiety?' based on the context: Xanax is effective...",
+  "Average Rating": 10.00,
+  "Drugs Mentioned": ["Clonazepam", "Klonopin", "Valium", "Diazepam"],
+  "Positive Reviews": ["Medicine I've ever used helped decrease anxiety","Helped anxiety medicine"],
+  "Negative Reviews": ["No negative reviews found"]
+}
+Thank you for using the chatbot. Goodbye!
+```
+
+### **2. Review Rating Prediction Workflow**
+#### **2.1. Input Classification**
+- Inputs not ending with a `?` are treated as reviews.
+
+#### **2.2. Rating Prediction**
+- Processes the review using the same tokenizer and sequence length as during training.
+- Passes the processed input through the trained model.
+- Outputs a predicted numerical rating.
+
+---
+
+## **Error Handling**
+- **Empty Input:** Prompts the user to provide valid input.
+- **Missing Data:** Checks for missing or invalid columns in the dataset.
+- **Invalid Context:** Handles scenarios where no relevant reviews are found.
+
+---
+
+## **Future Improvements**
+### **For the Model:**
+- Add support for multi-output predictions (drug identification and review generation).
+- Improve training with larger datasets and hyperparameter tuning.
+
+### **For the Chatbot:**
+- Implement multi-turn dialogue state tracking for conversational coherence.
+- Integrate advanced dialogue management frameworks like Rasa or Dialogflow.
+- Use pre-trained QA models (e.g., BERT) for enhanced question answering.
+
+---
+
+## **Getting Started**
+1. **Setup Environment:**
+   - Install required libraries (`TensorFlow`, `Keras`, `Pandas`, `NumPy`, etc.).
+2. **Prepare Dataset:**
+   - Ensure the dataset includes columns like `cleaned_review`, `rating`, and optionally `drugName`.
+3. **Run the Code:**
+   - Train the model using the provided script.
+   - Start the chatbot and interact via the command line.
+
 
 ## Production
 
